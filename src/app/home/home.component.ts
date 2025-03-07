@@ -1,34 +1,23 @@
-import { Component, ViewChild } from '@angular/core';
+import { Component } from '@angular/core';
 import { IonicModule } from '@ionic/angular';
 import { TranslateModule } from '@ngx-translate/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { SearchBarComponent } from '../components/search-bar/search-bar.component';
-import { TranslateService } from '@ngx-translate/core';
-import { IonContent, IonInfiniteScroll } from '@ionic/angular';
-import { QuotesService, Quote } from '../services/quotes.service';
 
 @Component({
   selector: 'app-home',
-  templateUrl: './home.page.html',
-  standalone: false,
-
+  templateUrl: './home.component.html',
+  styleUrls: ['./home.component.scss'],
+  standalone: true,
+  imports: [IonicModule, TranslateModule, CommonModule, FormsModule ],
 })
-export class HomePage {
-
-
+export class HomeComponent {
   categories = ['PROPHET', 'ABUBAKR', 'UMAR', 'UTHMAN', 'ALI'];
   selectedCategory: string = 'PROPHET';
   searchQuery: string = '';
   favorites: Set<string> = new Set();
-
-  constructor() {
-    // Load favorites from localStorage
-    const savedFavorites = localStorage.getItem('favoriteQuotes');
-    if (savedFavorites) {
-      this.favorites = new Set(JSON.parse(savedFavorites));
-    }
-  }
+  constructor() { }
 
   segmentChanged(event: any) {
     this.selectedCategory = event.detail.value;

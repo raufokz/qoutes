@@ -1,0 +1,20 @@
+:host {
+  ion-content {
+    --padding-start: 16px;
+    --padding-end: 16px;
+  }
+
+  [dir="rtl"] ion-label {
+    text-align: right;
+  }
+
+  [dir="ltr"] ion-label {
+    text-align: left;
+  }
+
+  ion-header {
+    ion-select {
+      padding-right: 16px;
+    }
+  }
+}

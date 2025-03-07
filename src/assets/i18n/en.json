@@ -1,0 +1,112 @@
+{
+  "HELLO": "Hello",
+  "WELCOME": "Islamic Quotes Collection",
+  "LANGUAGE": "Language",
+  "QUOTES": {
+    "TITLE": "Islamic Quotes",
+    "CATEGORIES": {
+      "PROPHET": "Prophet Muhammad ﷺ",
+      "ABUBAKR": "Abu Bakr (RA)",
+      "UMAR": "Umar (RA)",
+      "UTHMAN": "Uthman (RA)",
+      "ALI": "Ali (RA)",
+      "SAHABA": "Other Companions",
+      "SCHOLARS": "Islamic Scholars",
+      "WISDOM": "Words of Wisdom",
+      "QURAN": "Quranic Verses",
+      "HADITH": "Hadith",
+      "DAILY": "Daily Reminders",
+      "DUA": "Prayers & Supplications"
+    },
+    "SUBCATEGORIES": {
+      "FAITH": "Faith & Belief",
+      "CHARACTER": "Character & Morals",
+      "KNOWLEDGE": "Knowledge & Wisdom",
+      "FAMILY": "Family & Relations",
+      "WORSHIP": "Worship & Devotion",
+      "LIFE": "Life & Death",
+      "SUCCESS": "Success & Achievement",
+      "PATIENCE": "Patience & Perseverance"
+    },
+    "PROPHET": {
+      "QUOTE1": "The best among you are those who have the best manners and character.",
+      "QUOTE2": "None of you truly believes until he wishes for his brother what he wishes for himself.",
+      "QUOTE3": "Speak good or remain silent.",
+      "QUOTE4": "The strong person is not the one who can wrestle someone else down. The strong person is the one who can control himself when he is angry.",
+      "QUOTE5": "He who is not grateful to people is not grateful to Allah.",
+      "QUOTE6": "Fragrance, women, and prayer have been made dear to me.",
+"QUOTE7": "Seek knowledge, for seeking it is a duty upon every Muslim.",
+"QUOTE8": "Supplication is the weapon of the believer and the pillar of religion.",
+"QUOTE9": "Spend in charity and do not fear poverty from Allah.",
+"QUOTE10": "Earning lawful livelihood is a duty, and unlawful earning is a sin."
+
+    },
+    "ABUBAKR": {
+      "QUOTE1": "Without knowledge action is useless and knowledge without action is futile.",
+      "QUOTE2": "Take account of yourself before you are taken to account.",
+      "QUOTE3": "The most valuable thing in life is good character.",
+      "QUOTE4": "Good actions are a guard against the blows of adversity.",
+      "QUOTE5": "Death is the easiest of all things after it, and the hardest of all things before it.",
+      "QUOTE6": "Love for Allah illuminates hearts.",
+"QUOTE7": "If you are Allah's servant on earth, angels will praise you in the heavens.",
+"QUOTE8": "The tongue is the interpreter of the heart.",
+"QUOTE9": "Seeking and giving advice is the hallmark of a believer.",
+"QUOTE10": "The taste of worship is found in piety."
+
+    },
+    "UMAR": {
+      "QUOTE1": "Be humble, for you are made of earth. And eat of the earth's fruits, for from it you were created.",
+      "QUOTE2": "The less you speak, the more peaceful you will be.",
+      "QUOTE3": "Do not look at who is speaking, but look at what is being said.",
+      "QUOTE4": "Sometimes the people with the worst past, create the best future.",
+      "QUOTE5": "Knowledge is not gained by memorizing, but by understanding.",
+      "QUOTE6": "There is no prayer without humility and tranquility.",
+"QUOTE7": "There is no blessed wealth without piety.",
+"QUOTE8": "Treat people kindly so that Allah may have mercy on you.",
+"QUOTE9": "Guard yourselves from sins before seeking repentance.",
+"QUOTE10": "Honoring people is honoring yourself."
+
+    },
+    "UTHMAN": {
+      "QUOTE1": "Indeed, Allah will help a Muslim as long as he helps his brother.",
+      "QUOTE2": "Modesty and faith are linked together; when one of them goes, the other goes too.",
+      "QUOTE3": "There is no better wealth than contentment and no better companion than good character.",
+      "QUOTE4": "The best among you are those who learn the Quran and teach it.",
+      "QUOTE5": "Patience is beautiful, and Allah's help is to be sought.",
+      "QUOTE6": "Know that the life of this world is but play and amusement.",
+"QUOTE7": "Be just in your dealings with people.",
+"QUOTE8": "He who recites the Quran is a treasure of knowledge.",
+"QUOTE9": "Indeed, Allah is with the patient ones.",
+"QUOTE10": "Be content with what Allah has decreed for you, for it is best for you."
+
+    },
+    "ALI": {
+      "QUOTE1": "Do not let your difficulties fill you with anxiety, after all it is only in the darkest nights that stars shine more brightly.",
+      "QUOTE2": "The tongue of a wise person is behind their heart, and the heart of a fool is behind their tongue.",
+      "QUOTE3": "Knowledge is a light that Allah places in the heart of whomsoever He wills.",
+      "QUOTE4": "A person's worth depends upon the nobility of their aspirations.",
+      "QUOTE5": "Do not raise your children the way your parents raised you; they were born for a different time.",
+      "QUOTE6": "People are known by their morals, not by their wealth.",
+"QUOTE7": "The best charity is to teach knowledge.",
+"QUOTE8": "He who is with the truth is never alone.",
+"QUOTE9": "Patience is difficult, but its reward is the best.",
+"QUOTE10": "Knowledge is the light of faith."
+
+    }
+  },
+  "SEARCH": {
+    "PLACEHOLDER": "Search quotes...",
+    "NO_RESULTS": "No quotes found"
+  },
+  "ACTIONS": {
+    "SHARE": "Share",
+    "FAVORITE": "Add to favorites",
+    "UNFAVORITE": "Remove from favorites",
+    "COPY": "Copy quote"
+  },
+  "CATEGORIES": {
+    "TITLE": "Categories",
+    "ALL": "All Quotes",
+    "FAVORITES": "Favorites"
+  }
+}

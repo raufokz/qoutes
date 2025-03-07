@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>{{ 'QUOTES.TITLE' | translate }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <!-- Language Selection -->
+  <ion-segment [(ngModel)]="selectedCategory" (ionChange)="segmentChanged($event)">
+    <ion-segment-button *ngFor="let category of categories" [value]="category">
+      {{ 'QUOTES.CATEGORIES.' + category | translate }}
+    </ion-segment-button>
+  </ion-segment>
+
+  <!-- Search Bar -->
+  <!-- <app-search-bar (searchChange)="onSearchChange($event)"></app-search-bar> -->
+
+  <!-- Quotes List -->
+  <ion-list>
+    <ion-item *ngFor="let quoteKey of getQuoteKeys(selectedCategory)">
+      <ion-label>
+        <h2>{{ 'QUOTES.' + selectedCategory + '.' + quoteKey | translate }}</h2>
+        <p>{{ 'QUOTES.' + selectedCategory + '.author' | translate }}</p>
+      </ion-label>
+      <ion-button (click)="toggleFavorite(quoteKey)">
+        <ion-icon [name]="isFavorite(quoteKey) ? 'heart' : 'heart-outline'"></ion-icon>
+      </ion-button>
+    </ion-item>
+  </ion-list>
+</ion-content>
